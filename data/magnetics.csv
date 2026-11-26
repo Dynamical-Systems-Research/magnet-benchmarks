@@ -1,0 +1,15 @@
+measurement_id,specimen_id,stage,magnetic_alignment,Br_T,Br_kGs,Hci_kA_m,Hci_kOe,BHmax_MGOe,demag_N,density_g_cm3,temperature_K,field_min_kOe,field_max_kOe,instrument,status,notes
+M-HIST-A,HIST-A,as_sintered,isotropic,0.1400,1.40,10.3,0.13,,,7.53,300,,,,measured,Historical sintered benchmark; body density 7.53 g/cm3
+M-HIST-B,HIST-B,as_sintered,isotropic,,,,,,,,,,,,unmeasured,No magnetic loop reported
+M-HIST-C,HIST-C,as_sintered,isotropic,0.5250,5.25,16.7,0.21,,,7.45,300,,,,measured,Historical sintered benchmark; body density 7.45 g/cm3
+M-HIST-D,HIST-D,as_sintered,isotropic,0.7550,7.55,227.6,2.86,,,7.49,300,,,,measured,Historical sintered benchmark; body density 7.49 g/cm3
+M-HIST-E-00,HIST-E,as_sintered,isotropic,0.8030,8.03,613.5,7.71,,,7.42,300,,,,measured,Historical sintered benchmark; body density 7.42 g/cm3
+M-HIST-E-01,HIST-E,as_sintered,isotropic,0.8100,8.10,580.9,7.30,,,,300,,,,measured,Historical repeat/section E_1
+M-HIST-E-02,HIST-E,as_sintered,isotropic,0.8000,8.00,596.8,7.50,,,,300,,,,measured,Historical repeat/section E_2
+M-HIST-E-03,HIST-E,as_sintered,isotropic,0.8000,8.00,612.7,7.70,,,,300,,,,measured,Historical repeat/section E_3
+M-HIST-E-900,HIST-E,after_900,isotropic,0.7000,7.00,652.5,8.20,,,,300,,,,measured,Historical annealed 900 C; post-anneal density unmeasured
+M-HIST-E-900-520,HIST-E,after_900_520,isotropic,0.7200,7.20,732.1,9.20,,,,300,,,,measured,Historical two-step annealed 900 C + 520 C; post-anneal density unmeasured
+M-HIST-DG11-3,HIST-DG11-3,unspecified,isotropic,0.8010,8.01,612.7,7.70,11.11,0.36,7.40,300.0,-90.0,90.0,Quantum Design DynaCool VSM,measured,30.98 mg center cube (4496 loop points); Br=0.801 T and BHmax=11.11 MGOe at 7.40 g/cm3 (caliper-volume 6.60 g/cm3 would give ~0.708 T / ~8.88 MGOe)
+M-850-01,S-850-01,after_900_520,isotropic,,,,,,,,,,,Quantum Design MPMS-3,scheduled_dec_2026,Annealed fragments scheduled for 20 / 90 / 105 C loop measurements in Dec 2026
+M-850-02,S-850-02,after_900_520,isotropic,,,,,,,,,,,Quantum Design MPMS-3,scheduled_dec_2026,Annealed fragments scheduled for 20 / 90 / 105 C loop measurements in Dec 2026
+M-850-03,S-850-03,as_sintered,isotropic,,,,,,,,,,,,failed_oxidized_alpha_fe,Specimen #9 oxidized and decomposed with substantial alpha-Fe; not suitable for magnetic loop measurement

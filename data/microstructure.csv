@@ -1,0 +1,7 @@
+measurement_id,specimen_id,stage,surface_prep,quantity,value_min,value_median,value_max,unit,method,status,notes
+MS-HIST-E-ND-FRAC,HIST-E,as_sintered,polished_bse,nd_rich_area_fraction,,0.0376,,area_fraction,Otsu threshold on planar polished BSE,measured,Planar polished BSE summary anchor
+MS-HIST-E-POCKET,HIST-E,as_sintered,polished_bse,nd_rich_pocket_share,,0.7645,,fraction,Thickness split t = 0.20 um on planar polished BSE,measured,Share of Nd-rich area sitting in pockets wider than 0.20 um
+MS-HIST-E-LINE,HIST-E,as_sintered,polished_bse,faint_gb_line_coverage,,0.047,,fraction,2.5 um intercept basis on planar polished BSE,measured,Thin intergranular boundary-line coverage estimate
+MS-HIST-D-POCKET,HIST-D,as_sintered,polished_bse,nd_rich_pocket_share,,0.985,,fraction,Planar polished BSE (20 kV JPEG),measured_low_resolution,20 kV compressed image limits thin-boundary visibility
+MS-HIST-E-GRAIN,HIST-E,after_900,polished_bse,grain_3d_diameter,2.7,3.0,3.3,um,Linear intercept to 3D sphere stereology (1.5x intercept),measured,Shows ~1.05x coarsening relative to as-sintered state
+MS-HIST-E-CONTRAST,HIST-E,after_900_vs_after_900_520,polished_bse,bright_phase_otsu_area_fraction_check,0.043,,0.044,area_fraction,Contrast-normalized Otsu check across unmatched BSE frames,diagnostic_imaging_mismatch,"Unmatched brightness/contrast across frames (matrix grey 77 vs 146, clipped at 255); apparent bright-phase shift is imaging mismatch rather than physical phase change"

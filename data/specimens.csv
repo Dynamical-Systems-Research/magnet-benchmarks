@@ -1,0 +1,17 @@
+specimen_id,label,cohort,magnetic_alignment,status,feedstock_d50_um,degassing,sps_T_peak_C,sps_heating_rate_C_per_min,sps_dwell_min,sps_pressure_MPa,sps_pressure_mode,glovebox_o2_ppm,anneal_history,notes
+HIST-A,Sample A,historical,isotropic,completed,4.0,none,950,100,10,50,heating,,none,"0 to 50 MPa during heating, 50 MPa dwell and vacuum cooling; standard 4 um NdFeB powder"
+HIST-B,Sample B,historical,isotropic,completed,4.0,none,850,100,10,50,heating,,none,"0 to 50 MPa during heating, 50 MPa dwell and vacuum cooling; standard 4 um NdFeB powder"
+HIST-C,Sample C,historical,isotropic,completed,4.0,none,850,10,10,50,heating,,none,"0 to 50 MPa during heating, 50 MPa dwell and vacuum cooling; standard 4 um NdFeB powder"
+HIST-D,Sample D,historical,isotropic,completed,4.0,600 C / 10 min vacuum,850,10,10,50,heating,,none,"0 to 50 MPa during heating, 50 MPa dwell and vacuum cooling; standard 4 um NdFeB powder"
+HIST-E,Sample E (DG11),historical,isotropic,completed,4.0,600 C / 10 min vacuum,850,10,10,50,cooling,,900 C / 2 h; 900 C / 2 h + 520 C / 2 h,"0 MPa heating/dwell, 0 to 50 MPa free cooling 850 to 700 C, 50 MPa vacuum cooling; companion DG11 runs also tested 900 C/1 h + 580 C/1 h and 580 C/2 h"
+HIST-DG11-3,DG11-3 center cube,historical,isotropic,completed,,,,,,,,,unspecified,DG11 family center cube (30.98 mg; caliper annotation 1.81 x 1.80 x 1.44 mm); exact heat-treatment stage unspecified
+S-750-01,#1,sps_panel,isotropic,completed,4.0,600 C / 15 min vacuum,750,10,5,60,cooling,,none,no pressure channel; initial 30 s cooling ~177 C/min
+S-750-02,#2,sps_panel,isotropic,completed,4.0,600 C / 15 min vacuum,750,10,5,60,cooling,,none,no pressure channel; initial 30 s cooling ~175 C/min
+S-750-03,#3,sps_panel,isotropic,completed,4.0,600 C / 15 min vacuum,750,10,5,60,cooling,,none,SPS temperature log unavailable; compaction jump +0.95 mm matches #2; geometric density has +16.82% cylinder discrepancy
+S-800-01,#4,sps_panel,isotropic,completed,4.0,vacuum degassed batch,800,10,5,60,cooling,,none,initial 30 s cooling ~200 C/min cleaned log
+S-800-02,#5,sps_panel,isotropic,completed,4.0,vacuum degassed batch,800,10,5,60,cooling,,none,compaction jump +0.94 mm matches #4 and #6; geometric density has -8.75% cylinder discrepancy
+S-800-03,#6,sps_panel,isotropic,completed,4.0,vacuum degassed batch,800,10,5,60,cooling,4.6,none,initial 30 s cooling ~186 C/min cleaned log
+S-850-01,#7,sps_panel,isotropic,completed,4.0,vacuum degassed batch,850,,,,,2.2,900 C 1st step + 520 C 2nd step,annealed fragments scheduled for MPMS-3 magnetic loop testing in Dec 2026
+S-850-02,#8,sps_panel,isotropic,completed,4.0,vacuum degassed batch,850,,,,,,900 C 1st step + 520 C 2nd step,paired Archimedes density rose 7.07 to 7.58 g/cm3 after 900 C anneal; annealed fragments scheduled for MPMS-3 magnetic loop testing in Dec 2026
+POWDER-BM350,Ball-milled powder,feedstock,isotropic,completed,,none,,,,,,,none,Ball-milled 350 rpm for 5 h in heptane (20 cycles); imaged by InLens SEM; laser-diffraction PSD not yet measured
+S-850-03,#9,sps_panel,isotropic,failed_oxidized_alpha_fe,,,850,,,,,,none,Refined ball-milled powder sintered under controlled environment; specimen oxidized and decomposed with substantial alpha-Fe precipitation (recorded as process-limit failure)

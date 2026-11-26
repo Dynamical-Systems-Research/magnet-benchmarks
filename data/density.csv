@@ -1,0 +1,17 @@
+measurement_id,specimen_id,label,stage,density_g_cm3,reported_td_pct,td_reference_g_cm3,method,pairing,diameter_mm,thickness_mm,mass_g,ideal_cylinder_g_cm3,ideal_cylinder_diff_pct,status,notes
+D-HIST-A,HIST-A,Sample A,as_sintered,7.53,,,unspecified,single_stage,,,,,,measured,Historical sintered benchmark
+D-HIST-B,HIST-B,Sample B,as_sintered,7.40,,,unspecified,single_stage,,,,,,measured,Historical sintered benchmark
+D-HIST-C,HIST-C,Sample C,as_sintered,7.45,,,unspecified,single_stage,,,,,,measured,Historical sintered benchmark
+D-HIST-D,HIST-D,Sample D,as_sintered,7.49,,,unspecified,single_stage,,,,,,measured,Historical sintered benchmark
+D-HIST-E,HIST-E,Sample E (DG11),as_sintered,7.42,,,unspecified,single_stage,,,,,,measured,Historical sintered benchmark; companion DG11-3 VSM normalization uses 7.40 g/cm3
+D-750-01,S-750-01,#1,as_sintered,4.83,63.0,7.62,geometric,single_stage,10.0,2.30,0.8972,4.9667,2.83,measured,Mass and caliper geometric density
+D-750-02,S-750-02,#2,as_sintered,4.78,63.0,,geometric,single_stage,9.8,2.13,0.7673,4.7758,-0.09,measured,Mass and caliper geometric density
+D-750-03,S-750-03,#3,as_sintered,4.68,61.5,,geometric,single_stage,9.5,2.35,0.9107,5.4673,16.82,flagged_geometry_discrepancy,Ideal cylinder implies 5.47 g/cm3 (+16.82% vs reported 4.68); SPS compaction jump matches #2
+D-800-01,S-800-01,#4,as_sintered,5.77,75.5,,geometric,single_stage,9.9,2.09,0.922,5.7309,-0.68,measured,Mass and caliper geometric density
+D-800-02,S-800-02,#5,as_sintered,5.66,74.2,,geometric,single_stage,9.9,2.04,0.811,5.1645,-8.75,flagged_geometry_discrepancy,Ideal cylinder implies 5.16 g/cm3 (-8.75% vs reported 5.66); SPS compaction jump matches #4 and #6
+D-800-03,S-800-03,#6,as_sintered,5.63,73.8,,geometric,single_stage,10.0,2.16,0.956,5.6353,0.09,measured,Mass and caliper geometric density
+D-850-01,S-850-01,#7,as_sintered,7.01,91.0,,archimedes,single_stage,,,,,,measured,Archimedes density; reported % TD implies ~7.70 g/cm3 reference
+D-850-02-AS,S-850-02,#8,as_sintered,7.07,92.0,,archimedes,paired_same_fragment,,,,,,measured,Archimedes density paired on same fragment as D-850-02-A900
+D-850-02-A900,S-850-02,#8,after_900,7.58,99.0,,archimedes,paired_same_fragment,,,,,,measured,Same fragment as D-850-02-AS after 900 C first-step anneal (before 520 C second step)
+D-850-01-ANN,S-850-01,#7,after_900_520,,,,,,,,,,,unmeasured,Post-anneal density not measured on #7
+D-850-02-A520,S-850-02,#8,after_900_520,,,,,,,,,,,unmeasured,Post-520 C density not measured on #8; 7.58 g/cm3 was measured after 900 C
